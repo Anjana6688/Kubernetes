@@ -1,12 +1,12 @@
-apiversion: v1
-kind: pod
-metadata:
+ apiVersion: v1
+ kind: Pod
+ metadata:
   name: nginx
   namespace: roboshop-application
-labels:
+  labels:
     name: nginx
     project: roboshop
-spec:
+ spec:
   containers:
   - name: nginx
     image: nginx
