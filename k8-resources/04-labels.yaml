@@ -3,7 +3,7 @@ kind: Pod
 metadata:
  name: forntend
 labels:
-project: roboshop-application
+project: roboshop
 component: frontend
 environment: dev
 version: v1
